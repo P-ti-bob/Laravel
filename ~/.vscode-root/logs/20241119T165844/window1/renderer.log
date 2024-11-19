@@ -1,0 +1,23 @@
+2024-11-19 16:58:46.196 [info] Started local extension host with pid 414598.
+2024-11-19 16:58:46.877 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-19 16:58:46.878 [info] Settings Sync: Authentication providers updated []
+2024-11-19 16:58:49.301 [info] [perf] Render performance baseline is 37ms
+2024-11-19 17:22:30.252 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///snap/code/175/usr/share/code/resources/app/out/main.js:36:4634)
+    at df.s (file:///snap/code/175/usr/share/code/resources/app/out/main.js:34:19676)
+    at df.q (file:///snap/code/175/usr/share/code/resources/app/out/main.js:34:19199)
+    at qo.value (file:///snap/code/175/usr/share/code/resources/app/out/main.js:34:18601)
+    at P.B (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:746)
+    at P.C (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:816)
+    at P.fire (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:1033)
+    at qo.value (file:///snap/code/175/usr/share/code/resources/app/out/main.js:28:4908)
+    at P.B (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:746)
+    at P.fire (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:964)
+    at qo.value (file:///snap/code/175/usr/share/code/resources/app/out/main.js:28:5092)
+    at P.B (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:746)
+    at P.fire (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:964)
+    at T (file:///snap/code/175/usr/share/code/resources/app/out/main.js:28:7343)
+    at IpcMainImpl.i (file:///snap/code/175/usr/share/code/resources/app/out/main.js:36:21224)
+    at IpcMainImpl.emit (node:events:519:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:85782)
+    at WebContents.emit (node:events:519:28)

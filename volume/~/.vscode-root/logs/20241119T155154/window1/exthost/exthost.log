@@ -1,0 +1,18 @@
+2024-11-19 15:51:55.443 [info] Extension host with pid 354050 started
+2024-11-19 15:51:55.443 [info] Skipping acquiring lock for /home/whood/Documents/Projects/Docker-Laravel/volume/~/.vscode-root/User/workspaceStorage/61882d3cd91afb7ac866ccf706a1b906.
+2024-11-19 15:51:55.507 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-19 15:51:55.535 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-11-19 15:51:55.883 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-19 15:51:55.887 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-11-19 15:51:55.914 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-19 15:51:55.967 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-19 15:51:56.103 [info] Eager extensions activated
+2024-11-19 15:51:56.114 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 15:51:56.116 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 15:51:56.131 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 15:52:01.137 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-19 15:52:01.144 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-19 15:52:01.151 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-19 16:30:23.516 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-11-19 16:57:47.500 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-19 16:57:47.546 [info] Extension host with pid 354050 exiting with code 0

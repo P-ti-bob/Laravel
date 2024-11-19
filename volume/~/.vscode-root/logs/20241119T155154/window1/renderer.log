@@ -1,0 +1,5 @@
+2024-11-19 15:51:55.099 [info] Started local extension host with pid 354050.
+2024-11-19 15:51:55.740 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-19 15:51:55.741 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-19 15:51:57.747 [info] [perf] Render performance baseline is 17ms
+2024-11-19 16:52:17.703 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/whood/Documents/Projects/Docker-Laravel/volume)

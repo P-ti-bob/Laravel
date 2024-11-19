@@ -1,0 +1,18 @@
+2024-11-19 15:51:54.564 [info] update#setState idle
+2024-11-19 15:52:24.482 [info] update#setState checking for updates
+2024-11-19 15:52:24.487 [info] update#setState idle
+2024-11-19 16:52:52.195 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: history.entries, workbench.explorer.treeViewState Length: 57
+2024-11-19 16:54:21.448 [info] update#setState checking for updates
+2024-11-19 16:54:21.453 [info] update#setState idle
+2024-11-19 16:57:46.223 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 4351
+2024-11-19 16:57:47.550 [info] Extension host with pid 354050 exited with code: 0, signal: unknown.
+2024-11-19 16:57:47.575 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?),(?,?)). Details: Keys: __$__targetStorageMarker, lifecyle.lastShutdownReason, memento/workbench.editors.files.textFileEditor, codelens/cache2 Length: 6888
+2024-11-19 16:57:47.575 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: __$__targetStorageMarker, editorFontInfo Length: 2412
+2024-11-19 16:57:47.579 [error] Error: ENOENT: no such file or directory, unlink '/home/whood/Documents/Projects/Docker-Laravel/volume/~/.vscode-root/User/workspaceStorage/61882d3cd91afb7ac866ccf706a1b906/state.vscdb'
+    at async Object.unlink (node:internal/fs/promises:1075:10)
+    at async y6.y (file:///snap/code/175/usr/share/code/resources/app/out/main.js:38:39827)
+    at async Qu.w (file:///snap/code/175/usr/share/code/resources/app/out/main.js:38:62133)
+    at async Qu.close (file:///snap/code/175/usr/share/code/resources/app/out/main.js:38:61557)
+    at async Promise.all (index 2)
+    at async Object.e [as settled] (file:///snap/code/175/usr/share/code/resources/app/out/main.js:33:109054)
+    at async file:///snap/code/175/usr/share/code/resources/app/out/main.js:38:34207

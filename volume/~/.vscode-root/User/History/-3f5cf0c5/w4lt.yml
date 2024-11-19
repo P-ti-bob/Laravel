@@ -1,0 +1,42 @@
+version: '2.30.3'
+name: laravel
+# décrir tout les conteneurs=services
+
+services:
+  # service 1
+  app:
+    image: laravel:1.0
+    ports:
+      - 9500:8000
+    networks:
+      - laravel-net
+    # autres options
+    # volumes 
+    # env
+    # etc...
+database:
+  image: postgres
+  ports: 
+    - 54321:5432
+  environnement:
+    - "POSTGRES_PASSWORD=Not24Get"
+    - "POSTGRES_DB=main"
+  networks:
+    - laravel-net
+  volumes:
+    - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    # créer un volume de secour pour la db
+    - postgres-data:/var/lib/postgreslq/data
+
+
+networks:
+  laravel-net:
+
+volumes:
+  postgres-data:
+# Pour run tout ça
+# docker compose up
+# docker compose down
+
+# Pour run en fond de tâche pour retrouver le contrôle du terminal
+# docker compose up -d

@@ -1,0 +1,32 @@
+2024-11-19 16:58:46.769 [info] Extension host with pid 414598 started
+2024-11-19 16:58:46.769 [info] Skipping acquiring lock for /home/whood/Documents/GitHub/Laravel/~/.vscode-root/User/workspaceStorage/7fd662eaab50f36b128ab026a0630219.
+2024-11-19 16:58:46.846 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-11-19 16:58:46.861 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-19 16:58:46.915 [info] Eager extensions activated
+2024-11-19 16:58:47.118 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 16:58:47.121 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 16:58:47.150 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-11-19 16:58:49.488 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-11-19 16:58:49.755 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-19 16:58:49.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 551
+2024-11-19 16:58:49.923 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-19 16:58:50.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+2024-11-19 16:58:53.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+2024-11-19 16:58:58.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 555
+2024-11-19 16:59:03.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 555
+2024-11-19 16:59:08.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 555
+2024-11-19 16:59:14.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 555
+2024-11-19 16:59:15.691 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-11-19 16:59:18.631 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-11-19 16:59:19.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
+2024-11-19 17:22:01.410 [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
+2024-11-19 17:22:29.667 [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
+2024-11-19 17:22:34.756 [warning] [Decorations] CAPPING events from decorations provider vscode.git 561
+2024-11-19 17:22:39.891 [warning] [Decorations] CAPPING events from decorations provider vscode.git 561
+2024-11-19 17:26:51.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 17:40:50.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 17:41:09.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 17:41:29.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 17:56:03.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 20:34:36.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+2024-11-19 20:34:41.678 [warning] [Decorations] CAPPING events from decorations provider vscode.git 563

@@ -1,0 +1,11 @@
+file:///home/whood/Documents/Projects/Docker-Laravel/volume/app/Http/Controllers/ProduitController.php {"mtime":1732025263724,"ctime":1732025263724,"size":124,"etag":"3dbo37j5r40","orphaned":false,"typeId":""}
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ProduitController extends Controller
+{
+    
+}
