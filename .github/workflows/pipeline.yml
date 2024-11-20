@@ -28,17 +28,17 @@ jobs:
           coverage: none
 
       - name: Install Composer dependencies
-        working-directory: volume/app
+        working-directory: /app
         run: composer install --prefer-dist --no-interaction --no-progress
 
       - name: Copy environment file
-        working-directory: volume/app
+        working-directory: /app
         run: cp .env.example .env
 
       - name: Generate app key
-        working-directory: volume/app
+        working-directory: /app
         run: php artisan key:generate
 
       - name: Execute tests
-        working-directory: volume/app
+        working-directory: /app
         run: vendor/bin/phpunit
