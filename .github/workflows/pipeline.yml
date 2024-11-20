@@ -63,7 +63,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD_WRITE }}
 
       - name: Docker build and push
-        uses: docker/build-push-version@v3
+        uses: docker/build-push-version@v5
         with:
           context: .
           push: true
