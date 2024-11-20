@@ -40,7 +40,7 @@ jobs:
         run: php artisan key:generate
 
       - name: Execute tests
-        working-directory: volume/app
+        working-directory: volume
         run: vendor/bin/phpunit
 
   build-docker:
