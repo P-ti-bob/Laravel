@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
     
       - name: Set up Docker
-        uses: docker/setup-quemu-action@v3
+        uses: docker/setup-qemu-action@v3
         
       - name: Set up Docker builder
         uses: docker/Setup-buildx-action@v3
